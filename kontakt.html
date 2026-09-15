@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Laboration 1 </title>
+</head>
+<body>
+     <!-- HEADERN MED NAVIGATION -->
+    <header>
+        <p> Laboration 1 </p>
+        <nav>
+            <ul>
+                <li><a href="index.html"> VEM JAG ÄR </a></li>
+                <li><a href="hobby.html"> HOBBY </a></li>
+                <li><a href="kontakt.html"> KONTAKTA MIG </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1> VILL DU KONTAKTA MIG? </h1>
+        <p> Fyll i formuläret här nedan, så kanske vi hörs! </p>
+
+        <!-- HÄR BÖRJAR KONTAKTUPPGIFTS-DELEN AV FORMULÄRET -->
+        <form>
+            <fieldset>
+                <legend> DINA KONTAKTUPPGIFTER: </legend>
+                <label for="name"> Ditt namn: </label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Skriv ditt namn här" required>
+                <br>
+                <br>
+                <label for="email"> Email-adress: </label>
+                <br>
+                <input type="email" id="email" name="name" placeholder="hej@hopp.com" required>
+                <br>
+                <br>
+                <label for="phonenumber"> Mobilnummer: </label>
+                <br>
+                <input type="tel" id="phonenumber" name="phonenumber" placeholder="0722345678" required>
+                </fieldset>
+                <br> 
+        <!-- HÄR BÖRJAR FEM-FAVORITER-DELEN AV FORMULÄRET -->
+                <fieldset>
+                <legend> FEM SNABBA FAVORITER </legend>
+                <label for="favouritefood"> Vilken är din favoritmat? </label>
+                <br>
+                <input type="text" id="favouritefood" name="favouritefood">
+                <br>
+                <br>
+                <label for="favouritenumber"> Vilken är din lyckosiffra? </label>
+                <br>
+                <input type="number" id="favouritenumber" name="favouritenumber" min="0" max="1000">
+                <br>
+                <br>
+                <label for="favouritecolor"> Favoritfärg? </label>
+                <br>
+                <input type="color" id="favouritecolor" name="favouritecolor">
+                <br>
+                <p>Vilken är din favorittid på dygnet?</p>
+                <input type="radio" id="morning" name="morning">
+                <label for="morning"> Morgonen </label>
+                <br>
+                <input type="radio" id="forenoon" name="forenoon">
+                <label for="forenoon"> Förmiddagen </label>
+                <br>
+                <input type="radio" id="afternoon" name="afternoon">
+                <label for="afternoon"> Eftermiddagen </label>
+                <br>
+                <input type="radio" id="evening" name="evening">
+                <label for="evening"> Kvällen </label>
+                <br>  
+                <input type="radio" id="night" name="night">
+                <label for="night"> Natten </label>
+                <br>
+                <br>
+                <label for="yourhobby"> Berätta om ditt största intresse! </label>
+                <br>
+                <textarea id="yourhobby" name="yourhobby"> </textarea>
+                </fieldset>
+                <br>
+        <!-- HÄR KOMMER KNAPPEN ATT SKICKA IVÄG FORMULÄRET MED -->
+               <p> KÄNNER DU DIG KLAR? </p>
+                    <button type="submit"> SKICKA IVÄG FORMULÄRET </button>
+            </form>
+            <br>
+            <p> Du kan också kontakta mig direkt på min mail genom att <a href="mailto:jubr2603@student.miun.se">Klicka här</a> :) 
+            </p>
+            <br>
+    </main>
+     <!-- HÄR BÖRJAR MIN FOOTER -->
+    <footer>
+            <p> ©2026 Julia Ester Sofie, <a href="kontakt.html">Tryck här för att kontakta mig</a></p>
+    </footer>
+</body>
+
+</html>
